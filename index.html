@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>CV numérique LEVEQUE Matthieu - Developpeur Web junior</title>
+        <meta name="description" content="CV numérique LEVEQUE Matthieu - Developpeur Web junior" />
+        <link rel="icon" href="assets/img/logo.png" type="image/gif" sizes="16x16">
+        <!-- MAIN CSS -->
+        <link href="assets/css/main.css" rel="stylesheet"/>
+        <!-- BOOTSTRAP CSS -->
+        <link href="assets/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+        <!-- FONTAWESOME CSS -->
+        <link href="assets/css/all.css" rel="stylesheet"/>
+        <!-- AOS CSS -->
+        <link href="assets/css/aos.css" rel="stylesheet"/>
+        <!-- ALL GOOGLE FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700,900" rel="stylesheet"> 
+    </head>
+    <body>
+        <!--START HEADER-->
+        <header>
+            <!--START navbar bruger-->
+            <div class="container d-flex justify-content-between align-items-center" data-aos="flip-right" data-aos-anchor-placement="top-bottom">
+                <img src="assets/img/logo.png" alt="logoml" />
+                <div id="burger" class="d-flex justify-content-center align-items-center"><i class="fas fa-bars"></i></div>
+            </div>
+            <!--end navbar burger-->
+        </header>
+        <!--END HEADER-->
+        <!--START INTRO-->
+        <div class="container-fluid" id="intro">
+            <div id="intro-container" class="d-flex align-items-center justify-content-center">
+                <!--particule-->
+                <div id="particles-js"></div>
+                <!--START TEXTE ANIMATION -->
+                <div id="animate-intro" class="d-flex align-items-center justify-content-center">
+                    <h2> HELLO WORLD!</h2>
+                    <h1 class="d-flex align-items-center justify-content-center">
+                        <span>
+                            <b class="is-visible">Leveque Matthieu</b>
+                            <b class="is-hidden">Développeur web junior</b>
+                            <b class="is-hidden">Full stack</b>
+                        </span>
+                    </h1>
+                </div>
+                <!--END TEXTE ANIMATION-->
+            </div>
+            <!-- START FOOTER INTRO -->
+            <div class="row d-flex align-items-center justify-content-center flex-column" id="footer-intro" data-aos="zoom-in" data-aos-anchor-placement="top-bottom">
+                <a href="assets/pdf/CV_LevequeM_DéveloppeurWebJunior.pdf" class="btn my-4" id="dlCvBtn">Télécharger le CV <i class="fas fa-file-download"></i></a>
+                <ul id="socials" class="d-flex p-0 align-items-center justify-content-center">
+                    <li><a href="https://github.com/Mleveque87"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/matthieu-leveque87/"><i class="fab fa-linkedin"></i></a></li>
+
+                </ul>
+            </div>
+            <!-- END FOOTER INTRO -->
+        </div>
+        <!-- END INTRO -->
+        <!-- START MENU -->
+        <div id="menu">
+            <ul>
+                <li><a href="#about-container"><i class="far fa-user-circle"></i> A propos de moi</a></li>
+                <li><a href="#skills-container"><i class="fas fa-code"></i> Compétences</a></li>
+                <li><a href="#experience-container"><i class="fas fa-briefcase"></i> Expériences</a></li>
+                <li><a href="#diplome-container"><i class="fas fa-user-graduate"></i> Diplômes</a></li>
+                <li><a href="#portfolio-container"><i class="fas fa-images"></i> Portfolio</a></li>
+                <li><a href="#hobbies-container"><i class="fas fa-headphones-alt"></i> Loisirs</a></li>
+                <li><a href="#contact-container"><i class="fas fa-file-signature"></i> Contactez moi</a></li>
+            </ul>
+        </div>
+        <!-- END MENU -->
+        <!--START SECTION INFORMATION-->
+        <section id="about-container">
+            <div class="container py-4">
+                <div class="row">
+                    <div class="col-12 col-md-6 d-flex flex-column align-items-center" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
+                        <h1>A propos de moi <i class="far fa-user-circle"></i></h1>
+                        <p class="pt-5">hello world! Récemment diplômé d'un titre professionnel niveau III (bac +2) de Développeur web et web mobile en Mars 2019 après une reconversion professionnelle, je recherche une alternance pour obtenir un titre professionnel de niveau II ou une première expérience en tant que Développeur front end, Développeur back end ou Développeur full stack afin de pouvoir mettre en application mes acquis et évoluer dans un métier qui me passionne. Habitué au travail en équipe sur différents projets, adepte du "apprendre à apprendre", connaissance de la gestion de projet avec l'approche AGILE et plus précisèment la méthode SCRUM, rigoureux, créatif, adaptabilité sont des qualités qui me permettront de mener à bien les missions que vous me confierez au sein de votre entreprise.</p>
+                    </div>
+                    <div class="col-12- col-md-6 d-flex flex-column align-items-center" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">
+                        <h1>Information <i class="fas fa-id-card"></i></h1>
+                        <div class="rounded-img mb-3">
+                            <img src="assets/img/logoMl2.jpg" alt="photoml">
+                        </div>
+                        <p><strong>LEVEQUE Matthieu</strong></p>
+                        <div class="social-information-container text-center"><a class="btn btn-link" href="tel:+33648103176"><i class="fas fa-mobile" aria-hidden="true"></i></a><a class="btn btn-link" href="mailto:Matthieu.leveque02@hotmail.fr"><i class="fas fa-envelope" aria-hidden="true"></i></a><a class="btn btn-link" data-toggle="modal" data-target="#resume-modal"><i class="far fa-id-card"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal RESUME INFORMATION-->
+            <div class="modal fade text-center" id="resume-modal" tabindex="-1" role="dialog" aria-labelledby="resumeModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="resumeModalCenterTitle">Carte de visite <i class="far fa-id-card"></i></h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Matthieu LEVEQUE - Développeur web junior</p>
+                            <p>31 ans</p>
+                            <p>06 48 10 31 76</p>
+                            <p>Matthieu.leveque02@hotmail.fr<p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END SECTION INFORMATION-->
+        <!--START SECTION SKILLS-->
+        <section id="skills-container">
+            <div class="container">
+                <div class="col-md-12">
+                    <div class="row d-flex py-4 align-items-center justify-content-center">
+                        <h1>COMPETENCES <i class="fas fa-code"></i></h1>
+                    </div>
+                    <div class="row">
+                        <!--DEBUT FONT END SKILLS-->
+                        <div class="col-md-6 text-center">
+                            <h2 class="py-4">FRONT-END</h2>
+                            <div class="row">
+                                <div class="col-md-12 d-flex justify-content-around flex-wrap" data-aos="flip-up" data-aos-anchor-placement="bottom-bottom">
+                                    <div class="circle mt-3 mb-3">
+                                        <p>HTML</p>
+                                        <div class="htmlCircle">
+                                            <div class="html-circle-animation-progress">
+                                                <div class="positionBlock">
+                                                    <div class="htmlImg"></div>
+                                                    <div class="htmlText"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="circle mt-3 mb-3">
+                                        <p>CSS</p>
+                                        <div class="cssCircle">
+                                            <div class="css-circle-animation-progress">
+                                                <div class="positionBlock">
+                                                    <div class="cssImg"></div>
+                                                    <div class="cssText"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="circle mt-3 mb-3">
+                                        <p>JAVASCRIPT</p>
+                                        <div class="jsCircle">
+                                            <div class="js-circle-animation-progress">
+                                                <div class="positionBlock">
+                                                    <div class="jsImg"></div>
+                                                    <div class="jsText"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--END FONT END SKILLS-->
+                        <!--START BACK END SKILLS-->
+                        <div class="col-md-6 text-center">
+                            <h2 class="py-4">BACK-END</h2>
+                            <div class="row">
+                                <div class="col-md-12 d-flex justify-content-around" data-aos="flip-down" data-aos-anchor-placement="bottom-bottom">
+                                    <div class="circle mt-3 mb-3">
+                                        <p>PHP</p>
+                                        <div class="phpCircle">
+                                            <div class="php-circle-animation-progress">
+                                                <div class="positionBlock">
+                                                    <div class="phpImg"></div>
+                                                    <div class="phpText"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="circle mt-3 mb-3">
+                                        <p>MYSQL</p>
+                                        <div class="mysqlCircle">
+                                            <div class="mysql-circle-animation-progress">
+                                                <div class="positionBlock">
+                                                    <div class="mysqlImg"></div>
+                                                    <div class="mysqlText"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--END BACK END SKILLS-->
+                    </div>
+                </div>
+                <!--START FRAMWORK & LIBRARY-->
+                <div class="col-12 text-center mt-3">
+                    <h2 class="py-4">FRAMWORK, LIBRARY & CMS</h2>
+                    <div class="row">
+                        <div class="col-md-12 d-flex justify-content-around flex-wrap" data-aos="flip-right" data-aos-anchor-placement="top-bottom">
+                            <div class="circle mt-3 mb-3">
+                                <p>ANGULAR JS</p>
+                                <div class="ajsCircle">
+                                    <div class="ajs-circle-animation-progress">
+                                        <div class="positionBlock">
+                                            <div class="ajsImg"></div>
+                                            <div class="ajsText"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="circle mt-3 mb-3">
+                                <p>JQUERY</p>
+                                <div class="jqCircle">
+                                    <div class="jq-circle-animation-progress2">
+                                        <div class="positionBlock">
+                                            <div class="jqImg"></div>
+                                            <div class="jqText"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="circle mt-3 mb-3">
+                                <p>BOOTSTRAP</p>
+                                <div class="bsCircle">
+                                    <div class="bs-circle-animation-progress">
+                                        <div class="positionBlock">
+                                            <div class="bsImg"></div>
+                                            <div class="bsText"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="circle mt-3 mb-3">
+                                <p>SYMFONY</p>
+                                <div class="symfonyCircle">
+                                    <div class="sf-circle-animation-progress">
+                                        <div class="positionBlock">
+                                            <div class="sfImg"></div>
+                                            <div class="sfText"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="circle mt-3 mb-3">
+                                <p>WORDPRESS</p>
+                                <div class="wordpressCircle">
+                                    <div class="wp-circle-animation-progress">
+                                        <div class="positionBlock">
+                                            <div class="wpImg"></div>
+                                            <div class="wpText"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--END FRAMWORK & LIBRARY-->
+                <!--START TOOLS-->
+                <div class="col-md-12 text-center mt-3">
+                    <h1 class="py-4">OUTILS <i class="fas fa-wrench"></i></h1>
+                    <div class="row" data-aos="flip-left" data-aos-anchor-placement="top-bottom">
+                        <div class="col-12">
+                            <img src="assets/img/apache.png" width="100" height="100" class="m-4" alt="apache"/>
+                            <img src="assets/img/terminal.png" width="100" height="100" class="m-4" alt="terminal"/>
+                            <img src="assets/img/chrome.png" width="100" height="100" class="m-4" alt="chrome" />
+                            <img src="assets/img/filezilla.png" width="100" height="100" class="m-4" alt="filezilla"/>
+                            <img src="assets/img/github1.png" width="100" height="100" class="m-4" alt="github"/>
+                            <img src="assets/img/linux.png" width="100" height="100" class="m-4" alt="linux"/>
+                        </div>
+                        <div class="col-12">
+                            <img src="assets/img/visualstudio.png" width="100" height="100" class="m-4" alt="visualstudio"/>
+                            <img src="assets/img/windows.png" width="100" height="100" class="m-4" alt="windows"/>
+                            <img src="assets/img/netbeans.png" width="100" height="100" class="m-4" alt="netbeans"/>
+                            <img src="assets/img/office.png" width="100" height="100" class="m-4" alt="office360"/>
+                            <img src="assets/img/atom.png" width="100" height="100" class="m-4" alt="atom"/>
+                            <img src="assets/img/ubuntu.png" width="100" height="100" class="m-4" alt="ubuntu"/>
+                        </div>
+                        <div class="col-12">
+                            <img src="assets/img/trello.png" width="100" height="100" class="m-4" alt="trello"/>
+                            <img src="assets/img/ps.png" width="100" height="100" class="m-4" alt="ps">
+                            <img src="assets/img/workbench.png" width="100" height="100" class="m-4" alt="workbench"/>
+                            <img src="assets/img/phpmyadmin.png" width="100" height="100" class="m-4" alt="phpmyadmin"/>
+                        </div>
+                    </div>
+                </div>
+                <!--ENDDEBUT TOOLS-->
+            </div>
+        </section>
+        <!--END SECTION SKILLS-->
+        <!--START SECTION EXPERIENCES-->
+        <section id="experience-container">
+            <div class="row d-flex py-4 align-items-center justify-content-center">
+                <h1 class="titleH1">EXPERIENCES <i class="fas fa-briefcase"></i></h1>
+            </div>
+            <div class="row">
+                <div class="items col-md-4 col-12 d-flex align-items-center flex-column" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
+                    <div class="item-bg" style="background-image: url(assets/img/vgf.jpg)"></div>
+                    <div class="item-bg-color"></div>
+                    <div class="item-year">
+                        <p>2010-2017</p>
+                    </div>
+                    <div class="item-content">
+                        <h1>EURO CRM - Technicien de Support B2B Accessoires Automobiles pour le Groupe Volkswagen France - Villers-Cotterêts (02)</h1>
+                        <p>Activités: Traitement et résolution de problèmes techniques, information produits, gestion de stocks et saisie de commandes, intermédiaire relationnel entre les maisons mère et le réseau (concessionnaires automobiles).</p>
+                        <p>Compétences: Méthode et outils de résolution de problèmes techniques, techniques pédagogiques, techniques commerciales, discours adapté B2B, travail en équipe.</p>
+                        <p>Outils:  Microsoft office, outlook, ETKA, SAP, intranet, extranet.</p>
+                    </div>
+
+                </div>
+                <div class="items col-md-4 col-12 d-flex align-items-center flex-column" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
+                    <div class="item-bg" style="background-image: url(assets/img/entrepot.jpg)"></div>
+                    <div class="item-bg-color"></div>
+                    <div class="item-year">
+                        <p>2009-2010</p>
+                    </div>
+                    <div class="item-content">
+                        <h1>Groupe Volkswagen France - Intérimaire Magasinier - Villers-Cotterêts (02)</h1>
+                        <p>Activités: Préparation de commandes et mise en stock pièces détachées.</p>
+                        <p>Compétences: Vérifier conformité de la livraison, technique d'inventaire, lecture plan de stockage, régles et consignes de sécurité.</p>
+                        <p>Outils: CACES 1 à 3, SAP.</p>
+                    </div>
+
+                </div>
+                <div class="items col-md-4 col-12 d-flex align-items-center flex-column" data-aos="zoom-in" data-aos-anchor-placement="center-bottom">
+                    <div class="item-bg" style="background-image: url(assets/img/moto.jpg)"></div>
+                    <div class="item-bg-color"></div>
+                    <div class="item-year">
+                        <p>2007-2009</p>
+                    </div>
+                    <div class="item-content">
+                        <h1>EDEN MOTORS - Commercial En Alternance B2C - Clairoix (60)</h1>
+                        <p>Activités: Vente véhicules neufs et occasions marque KAWASAKI et KTM, pièces détachées et équipements, gestion de stock, gestion planning atelier, marchandisage, traitement dossiers de crédit, gestion communication du point de vente.</p>
+                        <p>Compétences: Techniques commerciales et vente, marketing, communication, SAV.</p>
+                        <p>Outils: ktm et Kawasaki parts, outil gestion de stock et facturation</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!--END SECTION EXPERIENCES-->
+        <!--START SECTION DIPLOMES-->
+        <section id="diplome-container">
+            <div class="container-fluid">
+                <div class="row d-flex py-4 align-items-center justify-content-center">
+                    <h1>DIPLOMES <i class="fas fa-user-graduate"></i></h1>
+                </div>
+                <div class="row d-flex py-4 align-items-center justify-content-center">
+                    <div class="card-deck">
+                        <div class="card" data-aos="zoom-in-right" data-aos-anchor-placement="center-bottom">
+                            <img class="card-img-top" src="assets/img/electronique.png" width="100" height="200" alt="Card image Electronique"/>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">BAC STI Electronique - 2007</h5>
+                                <ul class="card-text">
+                                    <li>Electronique: production et traitement des signaux, conversion de grandeurs physiques en grandeurs électriques, transmission de l'information, conversion et contrôle de l'énergie.</li>
+                                    <li>Mécanique : étude de machines ou de systèmes pouvant inclure des dispositifs électroniques. </li>
+                                    <li>Construction : démarches et connaissances nécessaires à la création d'un produit. industriel : compétitivité, analyse fonctionnelle du produit, schémas, dessin. </li>
+                                    <li>Automatique : architecture et fonctionnement des systèmes automatisés, étude des composantes électroniques d'un automatisme.</li>
+                                    <li>Informatique industrielle : traitement numérique de l'information dans un système automatisé.</li>
+                                </ul>
+                                <p class="card-text text-center">Lycée Leonard De Vinci - Soissons(02)</p>
+                            </div>
+                        </div>
+                        <div class="card" data-aos="flip-down" data-aos-anchor-placement="center-bottom">
+                            <img class="card-img-top" src="assets/img/muc.jpg" width="100" height="200" alt="Card image MUC"/>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">BTS Management Des Unités Commerciales (BAC+2) - 2009</h5>
+                                <ul class="card-text">
+                                    <li>Management de l'équipe commerciales(recrutement, formation, animation, évaluation).</li>
+                                    <li>Gestion de l'unité commmerciale(définition des objectifs, gestion previsonnelle, gestion des équipements, evalution des résultats).</li>
+                                    <li>Gestion de projet(conception et réalisation d'action commerciales).</li>
+                                    <li>Gestion de la relation avec la clientèle(vente, développement de la relation de services, fidélisation).</li>
+                                    <li>Gestion et animation de l'offre de produits et de sevices(approvisionnements, contrôle qualité des préstations, aménagment de l'unité commerciales).</li>
+                                </ul>
+                                <p class="card-text text-center">Krysalis - Margny les compiègne(60)</p>
+                            </div>
+                        </div>
+                        <div class="card" data-aos="zoom-in-left" data-aos-anchor-placement="center-bottom">
+                            <img class="card-img-top" src="assets/img/developpeur.jpg" width="100" height="200" alt="Card image Developpeur"/>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Titre Professionnel « Développeur Logiciel » Titre certifié au RNCP Niveau III (BAC+2) - 2019</h5>
+                                <ul class="card-text">
+                                    <li>Développer une application client-serveur.</li>
+                                    <li>Maquetter une application.</li>
+                                    <li>Concevoir une base de données.</li>
+                                    <li>Mettre en place une base de données.</li>
+                                    <li>Développer des composants d'accès aux données.</li>
+                                </ul>
+                                <p>Projets: Reproduction Front site web, E-commerce Jquery, E-commerce Angular JS, CV numérique, Parse XML PHP, Can'thon La Manu (hackathon interne), Application de gestion de patients et RDV hopital, Plateforme de coaching sportif (projet titre pro). </p>
+                                <p class="card-text text-center">La Manu labellisé grande ecole du numérique - Soissons(02)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END SECTION DIPLOMES-->
+        <!--START SECTION PORTFOLIO-->
+        <section id="portfolio-container">
+            <div class="container">
+                <div class="row d-flex py-4 align-items-center justify-content-center">
+                    <h1>PORTFOLIO <i class="fas fa-images"></i></h1>
+                </div>
+                <div class="row py-4">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
+                        <a href="#">
+                            <img class="img-rounded" src="assets/img/soon.jpg" alt="soon"/>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-aos="flip-up" data-aos-anchor-placement="top-bottom">
+                        <a href="#">
+                            <img class="img-rounded" src="assets/img/soon.jpg" alt="soon"/>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-aos="flip-up" data-aos-anchor-placement="top-bottom">
+                        <a href="#">
+                            <img class="img-rounded" src="assets/img/soon.jpg" alt="soon"/>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
+                        <a href="#">
+                            <img class="img-rounded" src="assets/img/soon.jpg" alt="soon"/>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
+                        <a href="#">
+                            <img class="img-rounded" src="assets/img/soon.jpg" alt="soon"/>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-aos="flip-up" data-aos-anchor-placement="top-bottom">
+                        <a href="#">
+                            <img class="img-rounded" src="assets/img/soon.jpg" alt="soon"/>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-aos="flip-up" data-aos-anchor-placement="top-bottom">
+                        <a href="#">
+                            <img class="img-rounded" src="assets/img/soon.jpg" alt="soon"/>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6" data-aos="fade-left" data-aos-anchor-placement="top-bottom">
+                        <a href="#">
+                            <img class="img-rounded" src="assets/img/soon.jpg" alt="soon"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END SECTION PORTFOLIO-->
+        <!--START SECTION HOBBIES-->
+        <section id="hobbies-container">
+            <div class="container text-center">
+                <div class="row d-flex py-4 align-items-center justify-content-center">
+                    <h1>LOISIRS <i class="fas fa-headphones-alt"></i></h1>
+                </div>
+                <div class="row" data-aos="flip-down" data-aos-anchor-placement="top-bottom">
+                    <div class="col-md-12">
+                        <div class="single-hobbies-logo">
+                            <img src="assets/img/cinema.png" class="m-4" alt="cinema"/>
+                            <img src="assets/img/musique.png" class="m-4" alt="musique"/>
+                            <img src="assets/img/sport.png" class="m-4" alt="sport"/>
+                            <img src="assets/img/snowboard.png" class="m-4" alt="snowboard"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" data-aos="flip-up" data-aos-anchor-placement="top-bottom">
+                    <div class="col-md-12">
+                        <div class="single-hobbies-logo">
+                            <img src="assets/img/laptop.png" class="m-4" alt="informatique"/>
+                            <img src="assets/img/voyage.png" class="m-4" alt="voyage"/>
+                            <img src="assets/img/moto.png" class="m-4" alt="moto"/>
+                            <img src="assets/img/videogame.png" class="m-4" alt="jeux vidéo"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END SECTION HOBBIES-->
+        <!--START SECTION CONTACT-->
+        <section id="contact-container" class="contact-area section-padding" data-stellar-background-ratio="0.6">
+            <div class="container">
+                <div class="row d-flex py-4 align-items-center justify-content-center">
+                    <div class="col-sm-12">
+                        <div class="section-title text-center py-4">
+                            <h2>CONTACTEZ MOI <i class="fas fa-file-signature"></i></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-flex py-4 align-items-center justify-content-center" data-aos="flip-right" data-aos-anchor-placement="top-bottom">
+                    <div class="col-md-8 col-md-offset-2">
+                        <!-- DEBUT CONTACT FORM -->
+                        <div class="contact-form">
+                            <form action="https://formspree.io/matthieu.leveque02@hotmail.fr" method="POST">
+                                <div class="col-md-6 col-sm-12">
+                                    <input type="text" class="form-control" name="cf-name" placeholder="Votre Nom" required>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <input type="email" class="form-control" name="email" placeholder="Votre Email" required>
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <input type="text" class="form-control" name="subject" placeholder="Sujet">
+                                </div>
+                                <div class="col-md-12 col-sm-12">
+                                    <textarea class="form-control" rows="6" name="cf-message" placeholder="Votre Message" required></textarea>
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <button type="submit" class="form-control" id="cf-submit" name="submit">Envoyer Message <i class="fab fa-telegram-plane"></i></button>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- FIN CONTACT FORM  -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END SECTION CONTACT-->
+        <footer>
+            <div class="row">
+                <div class="col-md-12 d-flex text-center py-4 align-items-center justify-content-center">
+                    <p>Pour toutes demandes de projets ou autres renseignements n'hésitez pas a me contacter!</p>
+                </div>
+            </div>
+            <div class="social-footer-container text-center" data-aos="flip-right" data-aos-anchor-placement="bottom-bottom"><a class="btn btn-link" href="https://github.com/Mleveque87"><i class="fab fa-github" aria-hidden="true"></i></a><a class="btn btn-link" href="https://www.linkedin.com/in/matthieu-leveque87/"><i class="fab fa-linkedin" aria-hidden="true"></i></a><a class="btn btn-link" href="tel:+33648103176"><i class="fas fa-mobile" aria-hidden="true"></i></a><a class="btn btn-link" href="mailto:Matthieu.leveque02@hotmail.fr"><i class="fas fa-envelope" aria-hidden="true"></i></a></div>
+            <div class="row">
+                <div class="col-md-12 d-flex text-center py-4 align-items-center justify-content-center">
+                    <p><i class="far fa-copyright"></i> Copyright Leveque Matthieu. All-Right Reserved</p>
+                </div>
+            </div>
+        </footer>
+        <!-- Jquery library -->
+        <script src="assets/js/jquery.js"></script>
+        <!-- PLugin Animation Burger -->
+        <script src="assets/lib/pluginAnimation.js"></script>
+        <!-- AOS App -->
+        <script src="assets/lib/aos.js"></script>
+        <!-- aosinit js -->
+        <script src="assets/js/aosInit.js"></script>
+        <!-- ParticleJs library -->
+        <script src="assets/lib/particles.min.js"></script>
+        <!-- ParticleJs App -->
+        <script src="assets/js/particleApp.js"></script>
+        <!-- Animation App -->
+        <script src="assets/js/animationApp.js"></script>
+        <!-- CircleBar Library -->
+        <script src="assets/lib/circleBarOrigin.js"></script>
+        <!-- CircleBar App -->
+        <script src="assets/lib/circleBar.js"></script>
+        <!-- BOOTSTRAP js -->
+        <script src="assets/bootstrap/js/bootstrap.js"></script>
+    </body>
+</html>
